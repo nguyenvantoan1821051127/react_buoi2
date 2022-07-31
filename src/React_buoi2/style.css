@@ -1,0 +1,69 @@
+.container{
+    background: url(../../public/glassesImage/background.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: bottom right;
+}
+.header{
+    padding: 25px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+.plan .row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 100px;
+}
+.plan .col{
+    width: calc(100% /2);
+}
+.plan .col .item{
+    position: relative;
+}
+.plan .item .img-crile {
+    width: 276px;
+    height: 258px;
+    display: inline-block;
+    overflow: hidden;
+}
+.plan .col .item .img_v{
+    position:absolute;
+    top: 74px;
+    left: 270px;
+}
+.plan .item img{
+    width: 250px;
+}
+.plan .item .info{
+    margin: 0 210px;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    background-color: rgba(248, 223, 102, 0.6);
+}
+.plan .item .info h3{
+    color: blue;
+    padding-bottom: 5px;
+}
+.plan .item .info p{
+    font-size: 12px;
+    color: white;
+}
+.carousel .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 300px;
+    background-color: black;
+}
+.carousel .col{
+    width: calc(100% /6);
+}
+.carousel .item{
+    padding-right: 10px;
+}
+.carousel .item img{
+    width: 100px;
+}
